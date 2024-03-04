@@ -8,7 +8,8 @@ Normally, when a customer visits a retail store, and sees a shelf that doesn’t
 
 ## The project detects empty shelf from a video stream and identifies the products to restock
 
-![resnet_result][11]
+https://github.com/krishshah249/Retail-Shelf-Monitoring-and-Product-Detection/assets/52072651/2efc1c58-d73f-4188-a19e-36c28d8f8133
+
 ![output][5]
 
 ## Overview
@@ -86,12 +87,11 @@ The most effective and accurate deep convolutional neural network (faster region
 
 #### SSD Model Result on the image is displayed below
 
-![ssd_result][7]
+https://github.com/krishshah249/Retail-Shelf-Monitoring-and-Product-Detection/assets/52072651/d735e86c-3165-486d-82c8-390c406725c8
 
 #### YOLO V5
 
 YOLO is an abbreviation for the term ‘You Only Look Once’. This is an algorithm that detects and recognizes various objects in a picture (in real-time). Object detection in YOLO is done as a regression problem and provides the class probabilities of the detected images. It employs convolutional neural networks (CNN) to detect objects in real-time. As the name suggests, the algorithm requires only a single forward propagation through a neural network to detect objects. This means that prediction in the entire image is done in a single algorithm run. The CNN is used to predict various class probabilities and bounding boxes simultaneously.
-
 
 #### YOLO Loss Graph is displayed below
 
@@ -99,12 +99,11 @@ YOLO is an abbreviation for the term ‘You Only Look Once’. This is an algori
 
 #### YOLO Model Result on the image is displayed below
 
-![yolo_result][9]
+https://github.com/krishshah249/Retail-Shelf-Monitoring-and-Product-Detection/assets/52072651/5b21d212-7ee6-45a8-8cd5-d4268de7bee8
 
 #### Resnet 101
 
 It is a state-of-the-art object detection networks which depends on region proposal algorithms to hypothesize object locations. Advances like SPPnet and Fast R-CNN have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. This model uses a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and object scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. RPN and Fast R-CNN into a single network by sharing their convolutional features---using the 'attention' mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model, the detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy.
-
 
 #### Resnet 101 Loss Graph is displayed below
 
@@ -112,9 +111,7 @@ It is a state-of-the-art object detection networks which depends on region propo
 
 #### Resnet 101 Model Result on the image is displayed below
 
-![resnet_result][11]
-
-
+https://github.com/krishshah249/Retail-Shelf-Monitoring-and-Product-Detection/assets/52072651/2efc1c58-d73f-4188-a19e-36c28d8f8133
 
 
 [0]: images/intro.png
@@ -124,8 +121,5 @@ It is a state-of-the-art object detection networks which depends on region propo
 [4]: images/database.png
 [5]: images/output.png
 [6]: images/ssd_loss.png
-[7]: videos/ssd_result.mp4
 [8]: images/yolo_loss.png
-[9]: videos/yolo_result.mp4
 [10]: images/resnet_loss.png
-[11]: videos/resnet_result.mp4
